@@ -23,7 +23,7 @@ Install required libraries:
  https://account.shodan.io/
 
  🚀 Usage
-python shodan_scanner.py <target> --api-key <API_KEY> [OPTIONS]
+python shodan_terminal_scanner.py <target> --api-key <API_KEY> [OPTIONS]
 
 Options
 
@@ -35,10 +35,10 @@ Parameter	Description	Default
 Examples
 
 Basic Scan:
-python shodan_scanner.py 8.8.8.8 --api-key ABC123
+python sshodan_terminal_scanner.py 8.8.8.8 --api-key ABC123
 
 Domain Scan (5 Results):
-python shodan_scanner.py example.com --api-key ABC123 --threshold 5
+python shodan_terminal_scanner.py ceyhuncamli.com --api-key ABC123 --threshold 5
 
 
 📊 Sample Output
