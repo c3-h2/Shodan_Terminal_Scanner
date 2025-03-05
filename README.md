@@ -35,7 +35,7 @@ Parameter	Description	Default
 Examples
 
 Basic Scan:
-python sshodan_terminal_scanner.py 8.8.8.8 --api-key ABC123
+python shodan_terminal_scanner.py 8.8.8.8 --api-key ABC123
 
 Domain Scan (5 Results):
 python shodan_terminal_scanner.py ceyhuncamli.com --api-key ABC123 --threshold 5
